@@ -77,11 +77,9 @@ print "YRIRY GJB CNFFJBEQ EBGGRA".decode(encoding="ROT13")
 
 ### Hand Decode ###
 
-Write down the alphabet in normal order A, B, C, etc.
+ROT13 is shifting the alphabet forward 13 characters.
 
-Then write down the alphabet in the opposite direction underneath.  I start at Z and work backwards with A, B, C, etc.
-
-You now have rotated the 26-characters around its midpoint and can decode the message with this key.
+Write down the alphabet in normal order A, B, C, etc.  Then, starting with N (the 14th letter) start writing A, B, C again until you get to Z; continue at the top.
 
 ## Theory ##
 
@@ -231,12 +229,15 @@ like this:
 P to K, we get C.  When adding, if we exceed 25, then we roll to 0 (modulo 26).
 
 > P     P R O C E   E D M E E   T I N G A   S A G R E   E D
+
 > K     G O L D G   O L D G O   L D G O L   D G O L D   G O
 
 > becomes:
 
 > P     15 17 14 2  4  4  3 12  4 4  19  8 13 6  0  18 0  6 17 4 4   3
+
 > K     6  14 11 3  6 14 11  3  6 14 11  3  6 14 11  3 6 14 11 3 6  14
+
 > C     21 5  25 5 10 18 14 15 10 18  4 11 19 20 11 21 6 20  2 8 10 17
 
 > So, we get a ciphertext of: VFZFK SOPKS ELTUL VGUCH KR
@@ -406,9 +407,3 @@ I've not completed this level.
     The password for level 7 (krypton7) is encrypted with 'encrypt6'.
 
     Good Luck!
-
-
-
-
-
-
