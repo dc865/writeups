@@ -1,4 +1,3 @@
-Oops, I named the file incorrectly.  It is Krypton, not Kryptos.
 
 Documenting a walkthrough of the [Krypton](http://overthewire.org/wargames/krypton/) web challenge on OverTheWire.org.  
 
