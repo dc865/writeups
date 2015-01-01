@@ -39,6 +39,8 @@ I'm following the Markdown style guide at [daringfireball.net/projects/markdown/
 
     echo S1JZUFRPTklTR1JFQVQ= | base64 -d && echo ""
     
+Note: (Jeff) "base64 -D" on Mac OS X.
+
 ## Theory ##
 
 Referencing Wikipedia article on [Base64](http://en.wikipedia.org/wiki/Base64).  See it for illustrations.
