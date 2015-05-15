@@ -149,10 +149,3 @@ The responses can be recorded using our cred.txt file:
 hans	i<3cats
 rbourne	password
 ```
-
-The apache2 logs
-```
-INSERT SERVER LOGS
-```
-
-## Report 
