@@ -1,6 +1,6 @@
-# Intro to Phishing Demo
+# Morning Catch Credential Harvesting Walkthrough
 
-This demo will be an example of a credential harvesting attack without using attack tools. 
+This walkthrough will be an example of a credential harvesting attack without using purpose built attack tools. 
 
 ## Prerequisites
 
